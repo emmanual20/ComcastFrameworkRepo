@@ -1,4 +1,4 @@
-package com.crm.comcast.orgTest;
+package com.crm.comcast.ContactTest;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -10,16 +10,18 @@ import org.testng.annotations.Test;
 
 import com.crm.generic.baseUtility.BaseClass;
 
-public class CreateOrgTest extends BaseClass {
+public class CreateContactSampleTest extends BaseClass {
 	
-	@Test
-	public void createOrg() {
-		System.out.println("execute create org and verify");
-	}
-	@Test
-	public void createOrgWithIndustry() {
-		System.out.println("execute create org withIndustry and verify");
-	}
 
+	@Test
+	public void createContact() {
+		System.out.println("execute create contact & verify");
+	}
+	@Test
+	public void createContactDate() {
+		System.out.println("execute create contact withSD and Verify");
+	}
 	
 }
+	
+
